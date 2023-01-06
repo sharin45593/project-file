@@ -40,3 +40,25 @@ margin: 25px 146px;
 background: #FD6E0A;
 border-radius: 5px;
    }
+   .about{
+    background: rgb(226, 218, 218);
+    border-radius: 10px;
+    padding: 150px 150px;
+   }
+   .about-item{
+    display: flex;
+    gap: 300px;
+   }
+   .about-title{
+    font-weight: 700;
+font-size: 40px;
+margin-top: 135px;
+color: #151414;
+   }
+   .about-des{
+    margin-top: 15px;
+   }
+  .list li{
+    text-decoration: none;
+    margin-top: 8px;
+   }
