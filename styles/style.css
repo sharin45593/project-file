@@ -41,9 +41,9 @@ background: #FD6E0A;
 border-radius: 5px;
    }
    .about{
-    background: rgb(226, 218, 218);
+   
     border-radius: 10px;
-    padding: 150px 150px;
+    padding: 100px 150px;
    }
    .about-item{
     display: flex;
@@ -57,8 +57,150 @@ color: #151414;
    }
    .about-des{
     margin-top: 15px;
+    
    }
   .list li{
     text-decoration: none;
     margin-top: 8px;
    }
+
+   
+   .plan{
+   
+    margin: 0 300px;
+    padding: 100px 150px;
+    
+   }
+   .plan-title{
+    font-weight: 700;
+        font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+   text-align: center;
+   }
+   .plan-section{
+   display: flex;
+   gap: 90px;
+ 
+   }
+  
+ 
+      .plan-hed{
+        font-weight: 700;
+        font-size: 20px;
+        left: 230px;
+
+        
+
+color: #151414;
+      }
+  .plan-p{
+    font-weight: 400;
+    font-size: 16px;
+    left: 230px;
+
+  
+    
+    color: #757575;
+  }
+ 
+  .footer{
+    background: black;
+    width: 1600px;
+height: 560px;
+color: #fff;
+  }
+  .footer-div{
+    display: flex;
+    gap: 50px;
+    
+  }
+  .fotter-container{
+    margin-left: 90px;
+    padding: 150px;
+  }
+  .footer-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 4px;
+    color: #F8F8F8;
+  }
+  .footer-des{
+    font-weight: 400;
+    margin-top: 9px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #FFFFFF;
+  }
+  .fotter-icon{
+  
+  padding-left:3px;
+  }
+  .btn-primary{
+    color: #FD6E0A; 
+    border: 0; 
+    font-weight: 700;
+    font-size: 20px;
+    height: 64px;
+    padding: 18px 35px;
+    background: #FFFFFF;
+    border-radius: 5px;}
+
+    .fotter-container input[type="text"]{
+      margin-bottom: 30px;
+      width: 325px;
+      height: 64px;
+      border: 0;
+      width: 100%;
+      padding-left:18px;
+  
+  }
+  .contact{
+    margin: 0 300px;
+    padding:  100px 200px;
+    background: url('../images/gradient3.png'),url('../images/watch.png');
+    background-repeat: no-repeat;
+    
+   
+}
+.contact-des{
+  margin-left: 0;
+  text-align: left;
+}
+.title{
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.progressbar{
+  
+  padding: 100px 150px;
+  display: flex;
+  gap: 250px;
+  justify-content: center;
+  align-items: center;
+}
+.skills-title{
+  margin-top: 20px;
+  font-size: 50px;
+  font-weight: 300;
+}
+.skillbar{
+  height: 8px;
+  background-color: #151414;
+  width: 460px;
+  border-radius: 3px;
+}
+
+.html{
+  background: red;
+  width: 70%;
+  height: 8px;
+  border-radius: 3px
+}
+.css{
+  background: red;
+  width: 40%;
+  height: 8px;
+  border-radius: 3px
+}
